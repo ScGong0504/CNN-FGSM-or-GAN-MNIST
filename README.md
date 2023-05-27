@@ -45,11 +45,11 @@ FGSM（Fast Gradient Sign Method）是一种用于生成对抗样本的简单但
 
 1. 对抗样本域预测结果可视化（不同epsilon下的对抗样本）：
 
-<img src="C:\Users\Gsc020504\AppData\Roaming\Typora\typora-user-images\image-20230528010459220.png" alt="image-20230528010459220" style="zoom:67%;" />
+<img src="./images/不同扰动值下的对抗样本示例.png" alt="examples of different epsilon" style="zoom:50%;" />
 
 2. 扰动率对模型准确度的影响
 
-   <img src="C:\Users\Gsc020504\AppData\Roaming\Typora\typora-user-images\image-20230528010536444.png" alt="image-20230528010536444" style="zoom:67%;" />
+   <img src="./images/Accuracy--fgsm不同扰动攻击.png" alt="accuracy of different epsilon" style="zoom:67%;" />
 
 ## 4 GAN/DCGAN生成对抗样本
 
@@ -73,8 +73,8 @@ DCGAN（Deep Convolutional GAN）是GAN的一个变体，特别适用于图像�
 
 1. GAN迭代100轮
 
-   <img src="C:\Users\Gsc020504\AppData\Roaming\Typora\typora-user-images\image-20230528010618237.png" alt="image-20230528010618237" style="zoom: 80%;" />
+   <img src="./GAN/gan_images/gan_images-99.png" alt="GAN-100epochs" style="zoom: 100%;" />
 
 2. DCGAN迭代20轮
 
-   <img src="C:\Users\Gsc020504\AppData\Roaming\Typora\typora-user-images\image-20230528010629409.png" alt="image-20230528010629409" style="zoom: 80%;" />
+   <img src="./GAN/DCGAN_Images/fake_samples_epoch_019.png" alt="DCGAN-20epochs" style="zoom: 100%;" />
